@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>사용자 페이지</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="userHpage.css" />
+    <script type="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <div id="aaa">
+            <a id="a" herf="" style="color:rgb(72, 90, 90)">질병관리본부</a>  
+            <a id="b" herf="" style="color:rgb(72, 90, 90)">병원검색</a> 
+            <a id="c" href="" style="color:rgb(72, 90, 90)">코로나 현황</a>
+        </div>
+
+        <div id="bbb">
+            <a id="join" herf="" style="color:rgb(72, 90, 90)">Join</a>  
+            <a id="login" herf="" style="color:rgb(72, 90, 90)">Login</a> 
+            <a id="notice" href="" style="color:rgb(72, 90, 90)">Notice</a>
+            <a id="home" href="" style="color:rgb(72, 90, 90)">Home</a>
+        </div>
+
+        <div id="ccc">
+            <div id="top">
+                <img  id="logo" src="userLogo.png" alt="Logo" />
+            </div>
+        </div>
+
+    </header>
+
+    <nav id= "menu">
+        <ul>
+            <li><a class="menuLink" href="https://docs.google.com/spreadsheets/d/1yCJ8CjxABzXNn-KNKv_gauDWN1CXW4_wjLK74zc-W7A/edit?usp=drivesdk">Self Check</a></li>
+            <li><a class="menuLink" href="https://docs.google.com/forms/d/e/1FAIpQLSejTrLdyw96ag7xDBEMBcfjyB71fHnbKGqUdgyqcdvteDqLtg/viewform" target="_blank">Request</a></li>     
+            <li><a class="menuLink" href="enjoy.html" target="_blank">Enjoy</a></li>
+            <li><a class="menuLink" href="more.html" target="_blank">U_More</a></li>       
+        </ul> 
+    </nav>
+
+    <div id="box1">
+        <div id="date" >
+            <p id="day"> D-12</p>
+            <p id="p2"></p2>
+        </div>
+
+   
+        <div id="measure">
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+            <h3><pre id=res></h3></pre>
+            <script type="text/javascript" src="userscore.js"></script>
+            <p id="today">오늘의 체온 체크 횟수 </br></p>
+            <p id="checkcheck"></p>
+        
+        </div>
+        <div id="score">
+            <p id="sc">나의 자가격리 점수</br></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    
+        
+    <div id="box2">
+        <div id="graph">
+            <p id="tete">누적 체온 정보</br></p>
+            <img id="tempIMG" src="temp.png">
+            <div id="day1">
+                <p id="temp1">오전 체온</p>
+                <p id="re1">36.5</p>
+                <p id="temp2">오후 체온</p>
+                <p id="re2">35.9</p>
+            </div>
+
+            <div id="day2">
+                <p id="temp2_1">오전 체온</p>
+                <p id="re2_1">37.1</p>
+                <p id="temp2_2">오후 체온</p>
+                <p id="re2_2">36.9</p>
+            </div>
+
+            <div id="day3">
+                <p id="temp3_1">오전 체온</p>
+                <p id="re4_1"></p>
+                <p id="temp3_2">오후 체온</p>
+                <p id="re4_2"></p>
+            </div>
+
+            <div id="day4">
+                <p id="temp4_1">오전 체온</p>
+                <p id="re3_1"></p>
+                <p id="temp4_2">오후 체온</p>
+                <p id="re3_2"></p>
+            </div>
+
+
+
+        </div>
+        <div id="item">
+            <img id="three" src="itemIMG.png" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSejTrLdyw96ag7xDBEMBcfjyB71fHnbKGqUdgyqcdvteDqLtg/viewform'"/>
+        </div>
+    </div>   
+
+</body>
+</html>    
+
