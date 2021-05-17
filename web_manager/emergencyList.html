@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>긴급 요청 리스트</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="emergencyList.css" />
+   
+    <script type="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="js/bootstrap.js"></script>
+    <script type="text/javascript" src="emergency.js"></script>
+ 
+</head>
+
+
+
+
+<body>
+    <div id="h_list">
+        <header> 
+        </header>
+        <div id="head">
+            <h1>긴급 요청 리스트</h1>
+       </div>
+
+       
+       <div id="top">
+            <div id="circle1"></div> 
+            <div id="circle2"></div> 
+            <img id="img" src="car.png"/>
+            <img id="img2" src="call.png"/>
+ 
+        </div>
+       
+        <table class="table">
+            <thead>
+                <tr>
+                    <th >이름</th>
+                    <th >주소</th>
+                    <th >전화번호</th>
+                    <th >확인</th>
+                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>남도일</td>
+                    <td> 충남 아산시 신창면 순천향로 23</td>
+                    <td>010-1234-5678</td>
+                    <td>
+                        <button id="button1" onclick="check()">checkup</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>남도이</td>
+                    <td>충남 아산시 신창면 순천향로 22</td>
+                    <td>010-1234-5678</td>
+                    <td>
+                         <button id="button2" onclick="check2()">checkup</button>
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+
+    </div>
+
+
+
+</body>

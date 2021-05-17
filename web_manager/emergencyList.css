@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    overflow:hidden;
+}
+
+header{
+    width: 1600px;
+    height:50px;
+    left:0px;
+    top:-13px;
+    background-color: rgb(15, 8, 75);
+    justify-content: center;
+    position: relative;
+}
+
+
+h1{
+    position:relative;
+    font-size:57px;
+    color: rgb(0, 0, 0);
+    font-weight:500;
+    top:-9px;
+    left:360px; 
+    width: 560px;
+    border-bottom: 3px solid rgb(29, 93, 146);
+    z-index:0;
+
+}
+
+#img{
+    position:relative;
+    width:110px;
+    height:110px;
+    left:220px;
+    top:-280px;
+    z-index:2;
+}
+
+#img2{
+    position:relative;
+    width:100px;
+    height:100px;
+    left:50px;
+    top:-305px;
+    z-index:1;
+}
+#circle1{
+
+    border: rgb(36, 105, 161);
+    position:relative;
+    width:50px;
+    height:50px;
+    left:200px;
+    top:-108px;
+    background-color: rgb(36, 105, 161);
+    z-index:1;
+}
+
+#circle2{
+    border: rgb(105, 177, 149);
+    position:relative;
+    width:80px;
+    height:80px;
+    left:250px;
+    top:-190px;
+    background-color: rgb(98, 182, 157);
+    border-bottom:2px solid rgb(74, 146, 125);
+    z-index:1;
+}
+
+
+.table{
+    top:-230px;
+    position:relative;
+    width: 1200px;
+    height:200px;
+    left:200px;
+    text-align:center;
+    border-collapse: collapse;
+    border-top: 3px solid #168;
+}
+
+.table th {
+    color: #168;
+    background: #f0f6f9;
+    text-align: center;
+  }
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+
+.table th:first-child, .table td:first-child {
+    border-left: 0;
+}
+
+.table th:last-child, .table td:last-child {
+    border-right: 0;
+}
+
+.table tr td:first-child{
+    text-align: center;
+}
+  
+.table caption{caption-side: bottom; display: none;
+}
+
+.table button{
+    width:120px;
+    background-color: #ffffff;
+    border: 2px solid rgb(51, 136, 17);
+    color:rgb(51, 136, 17);
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px;
+    cursor: pointer;
+    
+
+}
+
+.table button:hover{
+    width:120px;
+    background-color:rgb(152, 153, 153);
+    border: 2px solid rgb(17, 102, 136);
+    color:rgb(255, 255, 255);
+    padding: 15px rgb(17, 102, 136);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>14일의 매니저</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="homePage.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    
+        var openWin;
+    
+        function openChild()
+        {
+            // window.name = "부모창 이름"; 
+            window.name = "parentForm";
+            // window.open("open할 window", "자식창 이름", "팝업창 옵션");
+            openWin = window.open("child_loginPage.html",
+                    "childForm");    
+        }
+ 
+   </script>
+</head>
+
+<body>
+    
+    <div id="homePage">
+    
+        <header>
+
+            <div>
+                <img  id="logo" src="managerLogo.png" alt="Logo" />
+            </div>
+            
+
+            <div id="top_menu">
+                <a herf="" style="color:white">HOME</a> | 
+                <a herf="" style="color:white">NOTICE</a> |
+                <a href="로그아웃페이지 주소" style="color:white">LOGOUT</a>
+            </div>
+          
+           
+            <p id="admin">For administrators</p>
+            <p id="user">For users</p>
+
+        </header>
+        <div id="bar"></div>
+
+        <nav id= "menu">
+            <ul>
+                <li><a class="menuLink" href="info.html">격리자 정보</a></li>
+                <li><a class="menuLink" href="https://docs.google.com/spreadsheets/d/1nb0dBL2441DStazBsFEkYD7aXltOu9rlbeJqNtVXdV0/edit#gid=0" target="_blank">요청사항</a></li>     
+                <li><a class="menuLink" href="https://livecorona.co.kr/"target="_blank">열그래프</a></li>
+                <li><a class="menuLink" href="emergencyList.html">긴급 요청</a></li>       
+            </ul> 
+        </nav>
+
+        <div id="box1" onclick="location.href='info.html'">
+            <img src="human.png" id="human"/>
+            <p id="coment1">격리자 정보 조회</p>
+            <p id="detail1">체온 ㅣ 재실 ㅣ 응답시간</p>           
+        </div>
+
+
+        <div id="box2" onclick="location.href='https://docs.google.com/spreadsheets/d/1nb0dBL2441DStazBsFEkYD7aXltOu9rlbeJqNtVXdV0/edit#gid=0' ">
+            <img src="itemIMG.png" id="item"   onclick=""/>
+            <p id="coment2">물품요청 현황 </p>
+        </div> 
+        
+        
+        <div id="box3"  onclick="location.href='http://www.cdc.go.kr/'">
+            <img src="headq.png" id="headq"   />
+            <p id="coment3">홈페이지 바로가기</p>
+        
+        </div>
+
+        <div id="box4" onclick="location.href='https://livecorona.co.kr/'">
+            <img src="graph.png" id="graph"/>
+            <p id='coment4'>전국 확진 현황</p>   
+        </div>
+        
+        <div id="box5"  onclick="location.href='https://docs.google.com/spreadsheets/d/1yCJ8CjxABzXNn-KNKv_gauDWN1CXW4_wjLK74zc-W7A/edit?usp=drivesdk'">
+            <p id='coment5'>자가검진 현황</p> 
+            <img id="response" src="response.png"></img>
+            <img id="self" src="self.png"></img>
+            <img id="ch" src="checkhuman.png"></img>
+           
+  
+        </div>
+
+       
+        <script type="text/javascript" src="homeCheck.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <h3><pre id=res></h3></pre>
+        <script type="text/javascript" src=""></script>
+
+    </div>
+    
+    
+</body>    
+</html>
